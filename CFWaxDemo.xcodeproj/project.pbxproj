@@ -13,9 +13,9 @@
 		5F4F155D1DB86B7E00094BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F155B1DB86B7E00094BF3 /* Main.storyboard */; };
 		5F4F155F1DB86B7E00094BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F155E1DB86B7E00094BF3 /* Assets.xcassets */; };
 		5F4F15621DB86B7E00094BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F15601DB86B7E00094BF3 /* LaunchScreen.storyboard */; };
-		5F4F156B1DB86B9A00094BF3 /* change.lua in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F15691DB86B9A00094BF3 /* change.lua */; };
 		5F4F156C1DB86B9A00094BF3 /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4F156A1DB86B9A00094BF3 /* wax.framework */; };
 		5F4F156E1DB86CB200094BF3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4F156D1DB86CB200094BF3 /* libsqlite3.tbd */; };
+		5F4F15741DB89A1D00094BF3 /* change.lua in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F15731DB89A1D00094BF3 /* change.lua */; };
 		CFE5753F22B1592DA9E3A0B2 /* libPods-CFWaxDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD615FC2E934ECD6A175235 /* libPods-CFWaxDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -31,9 +31,9 @@
 		5F4F155E1DB86B7E00094BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4F15611DB86B7E00094BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4F15631DB86B7E00094BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F4F15691DB86B9A00094BF3 /* change.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = change.lua; sourceTree = "<group>"; };
 		5F4F156A1DB86B9A00094BF3 /* wax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wax.framework; sourceTree = "<group>"; };
 		5F4F156D1DB86CB200094BF3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5F4F15731DB89A1D00094BF3 /* change.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = change.lua; path = ../../Library/tomcat8/webapps/ROOT/change.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		79D51F3E818D46B38EAE6158 /* Pods-CFWaxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFWaxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFWaxDemo/Pods-CFWaxDemo.release.xcconfig"; sourceTree = "<group>"; };
 		920C5A6B90DDFB7F28DBD1D4 /* Pods-CFWaxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFWaxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFWaxDemo/Pods-CFWaxDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 		5F4F15511DB86B7E00094BF3 /* CFWaxDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5F4F15691DB86B9A00094BF3 /* change.lua */,
+				5F4F15731DB89A1D00094BF3 /* change.lua */,
 				5F4F156A1DB86B9A00094BF3 /* wax.framework */,
 				5F4F15551DB86B7E00094BF3 /* AppDelegate.h */,
 				5F4F15561DB86B7E00094BF3 /* AppDelegate.m */,
@@ -176,7 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4F156B1DB86B9A00094BF3 /* change.lua in Resources */,
+				5F4F15741DB89A1D00094BF3 /* change.lua in Resources */,
 				5F4F15621DB86B7E00094BF3 /* LaunchScreen.storyboard in Resources */,
 				5F4F155F1DB86B7E00094BF3 /* Assets.xcassets in Resources */,
 				5F4F155D1DB86B7E00094BF3 /* Main.storyboard in Resources */,
