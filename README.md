@@ -1,7 +1,7 @@
 # CFWaxDemo
 AliWax 热更新Demo
 
-# QQ 598199033 微信 chengf_0224
+# QQ 598199033 微信 Chengf____
 
 # 框架地址：
 https://github.com/probablycorey/wax（已停更）
